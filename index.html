@@ -16,8 +16,9 @@
     
         /* navigation menu */
         nav {
-            background: rgb(55, 231, 173);
+            background: rgb(102, 158, 231);
             margin: 0 auto;
+            margin-bottom: 20px;
             display: flex;
             padding: 10px;
         }
@@ -42,7 +43,7 @@
     
         /* main container area beneath menu */
         main {
-            background: rgb(245, 238, 219);
+            background: rgb(0, 0, 0);
             display: flex;
         }
         .sidebar {
@@ -50,7 +51,7 @@
             padding: 10px;
         }
         .sidebar-img {
-            width: 200px;
+            width: 500px;
         }
         .content {
             flex: 1;
@@ -68,14 +69,14 @@
     
     <body>
        <!-- All content goes here -->
-    <div> 
+    <div id="all-contents"> 
         <nav>
-            <h1> William's Test Website</h1>
-            <ul>
-                <li>
+            <h1> William's Aquarium Emporium</h1>
+            <ul id="nav-ul">
+                <li class="nav-li>
                     <a href="index.html"> Home </a>
                 </li>
-                <li>
+                <li class="nav-li>
                     <a href="portfolio.html"> Portfolio </a>
                 </li>
             </ul>
@@ -83,16 +84,16 @@
 
         <main>
             <!-- Sidebar section -->
-             <div>
-                <img src="https://thumbs-prod.si-cdn.com/7UodV-s6j5aEVfrYwg5KQ26oBLY=/fit-in/1600x0/https://public-media.si-cdn.com/filer/d6/93/d6939718-4e41-44a8-a8f3-d13648d2bcd0/c3npbx.jpg" alt="">
-             </div>
+             <div class="sidebar">
+                <img class="sidebar-img"src="https://thumbs-prod.si-cdn.com/qXrJJ-l_jMrQbARjnToD0fi-Tsg=/800x600/filters:no_upscale()/https://public-media.si-cdn.com/filer/d6/93/d6939718-4e41-44a8-a8f3-d13648d2bcd0/c3npbx.jpg" alt="">
+             </div class="content">
 
               <!-- Content section -->
-             <div>
+             <div id="content">
+                <h2> William Ollie </h2>
+                <p> Student at hammond High </p>
                  <!-- Interests section -->
-                 <div>
-                    <h2> William Ollie </h2>
-                    <p> Student at hammond High </p>
+                 <div id="interests">
                      <h3> Interests </h3>
                      <ul>
                          <li> Soccer </li>
